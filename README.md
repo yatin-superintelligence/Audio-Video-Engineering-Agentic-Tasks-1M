@@ -45,6 +45,9 @@ To illustrate the density, high-stress conversational tone, and technical depth 
 ## Parquet Schema & Encoding
 
 The dataset schema is normalized for high-throughput data loading in multi-GPU training environments:
+
+<div style="margin-bottom: -35px;"></div>
+
 | Schema Node | Data Type | Implementation Details |
 | :--- | :--- | :--- |
 | `batch_id` | Int64 | Chronological generation marker. Acts as the primary deterministic seed for combinatorial permutation. |
@@ -52,8 +55,7 @@ The dataset schema is normalized for high-throughput data loading in multi-GPU t
 | `professional` | String | The exact occupational archetype (e.g.,`Orchestral Composer / Arranger`, `Foley Artist`). Determines the lexical bounds. |
 | `group` | String | The overarching macro-category enabling stratified sampling. |
 | `user_prompt` | String | The payload: The unformatted, raw task sequence requested of the multimodal agent. |
-
-## Algorithm of Combinatorial Generation
+<h2 style="margin-top: -5px !important;">Algorithm of Combinatorial Generation</h2>
 
 To algorithmically ensure zero task duplication and eliminate monotonic semantic drift across 1.03 million rows, this dataset was generated via a multi-stage deterministic combinatorial engine:
 
