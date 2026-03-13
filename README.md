@@ -4,7 +4,7 @@
 
 ## Abstract
 
-A highly specialized dataset featuring **1,031,068** in-context troubleshooting prompts and execution commands for the deepest levels of media production. Unlike standard datasets that simulate clean, theoretical instructions, this matrix captures the chaotic, highly-detailed, and conversational reality of professional audio engineers, composers, and video editors mid-session. It is engineered to train multimodal AI agents to operate in high-stress, technical environments where instructions are complex, multi-layered, and tightly coupled with time-based execution.
+A highly specialized dataset featuring **1,029,459** in-context troubleshooting prompts and execution commands for the deepest levels of media production. Unlike standard datasets that simulate clean, theoretical instructions, this matrix captures the chaotic, highly-detailed, and conversational reality of professional audio engineers, composers, and video editors mid-session. It is engineered to train multimodal AI agents to operate in high-stress, technical environments where instructions are complex, multi-layered, and tightly coupled with time-based execution.
 
 <img src="Audio Video Robot.jpg" alt="Audio Video Robot" width="100%"/>
 
@@ -12,8 +12,8 @@ A highly specialized dataset featuring **1,031,068** in-context troubleshooting 
 
 This dataset bridges the gap between a deeply focused human operator and the precise, node-level actuations required to resolve their complex timeline issues.
 
-* **Total Operations (Rows):** 1,031,068
-* **Total Agent Task Tokens (Prompts only):** 175,181,900 (approx.)
+* **Total Operations (Rows):** 1,029,459
+* **Total Agent Task Tokens (Prompts only):** 156,015,488 (approx.)
 * **Total Compute Expenditure (Generation):** 459,756,668 tokens (approx.)
 * **Dimensionality:** 25 distinct professional archetypes strictly focused on audio engineering, music composition, and video post-production.
 * **Storage Format:** Chunked Parquet (`batch_id` ordered, Zstandard compression)
@@ -63,7 +63,7 @@ The 25 archetypes are mapped against an expansive, highly specific software taxo
 **2. Pseudo-Random Intersection (The Tool Picker)**<br>
 For each agent task, the deterministic engine selects precise tool combinations tailored to each professional. Over 1,000 parallel workers concurrently generated this data stream, dynamically choosing tools while bound to the `batch_id` seed to guarantee reproducibility and prevent combinatorial overlap.
 
-By strategically sampling 1,031,068 times from the expansive pool of possible taxonomic intersections, the dataset achieves high structural entropy while remaining computationally reproducible.
+By strategically sampling 1,029,459 times from the expansive pool of possible taxonomic intersections, the dataset achieves high structural entropy while remaining computationally reproducible.
 
 **3. Hash-Based Behavioral Injection**<br>
 To shatter the monotonic voice often found in synthetic datasets, the task engine utilizes a multi-parameter behavioral array. The behavior injected into the system prompt is strictly tied to a mathematical hash of the batch index. This ensures the prompts range dynamically from clinical problem-solving to complete exasperation (e.g. *"I CAN'T BELIEVE THE BASS IS STILL OVERPOWERING THE MIX"*).
