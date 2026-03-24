@@ -99,7 +99,7 @@ As an AI System Engineer, Superintelligence Researcher, Dubstep artist, Rapper a
 
 ### Weblinks
 
-- **[IM Superintelligence](https://www.imsuperintelligence.ai):** Visit my central knowledge hub hosting other massive open datasets and over 2,000 articles exploring Superintelligence, cognitive architectures, quantum computing, distributed networks, algorithmic optimization, and the future of the global education sector, all authored through a custom 8-step multi-model agentic infrastructure I engineered.
+- **[IM Superintelligence](https://www.imsuperintelligence.ai):** Visit my central knowledge hub hosting other open datasets and over **[2,000 articles](https://www.imsuperintelligence.ai/blog)** exploring Superintelligence, cognitive architectures, quantum computing, distributed networks, and the future of the global education sector, authored through a custom 8-step multi-model agentic infrastructure.
 - **[Yatin Taneja | Professional Portfolio](https://www.yatintaneja.in):** View my professional portfolio for a comprehensive overview of my skills, industry experience, and software prototypes as part of my ongoing engineering work in full-stack AI agents and applications.
 - **[LinkedIn](https://www.linkedin.com/in/yatintaneja-pro/):** Connect on LinkedIn to collaborate on advanced autonomous systems, enterprise AI implementations, or to follow my ongoing research.
 
